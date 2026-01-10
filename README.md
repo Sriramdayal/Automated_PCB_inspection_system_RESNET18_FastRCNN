@@ -10,7 +10,7 @@ It classifies defects into categories like `missing_hole`, `mouse_bite`, `short`
 
 ## Files
 - `inspection_system.py`: Main script.
-- `resnet18_frcnn_scratch.pth`: Trained model weights.
+- `resnet18_frcnn_scratch.pth`: Trained model weights. [Download model](https://drive.google.com/drive/folders/1gVt0P94xHaQFHXgLMYR1Q5WEe8kqNDG-?usp=sharing)
 - `download.png`: Test image.
 
 ## Usage

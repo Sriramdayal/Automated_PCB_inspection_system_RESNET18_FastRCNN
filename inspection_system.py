@@ -60,7 +60,7 @@ def get_resnet18_faster_rcnn(num_classes):
 # --- Configuration ---
 CLASSES = ['background', 'missing_hole', 'mouse_bite', 'open_circuit', 'short', 'spur', 'spurious_copper']
 MODEL_PATH = 'resnet18_frcnn_scratch.pth'
-IMAGE_PATH = 'download.png'
+IMAGE_PATH = 'input.jpeg'
 
 # --- Inspection Logic ---
 def analyze_product(image_path, model, device):
