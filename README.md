@@ -11,7 +11,7 @@ It classifies defects into categories like `missing_hole`, `mouse_bite`, `short`
 ## Files
 - `inspection_system.py`: Main script.
 - `resnet18_frcnn_scratch.pth`: Trained model weights. [Download model and demo video](https://drive.google.com/drive/folders/1gVt0P94xHaQFHXgLMYR1Q5WEe8kqNDG-?usp=sharing)
-- `download.png`: Test image.
+- `demo.png`: Test image.
 
 ## Usage
 
@@ -27,12 +27,6 @@ To evaluate the model's performance (FPS and mAP), use the `benchmark_fps.py` sc
 **1. Inference Speed (FPS)**
 ```bash
 uv run --with torch --with torchvision --with opencv-python --with matplotlib --with Pillow --with torchmetrics python benchmark_fps.py
-```
-
-**2. mAP Calculation**
-Requires a validation dataset with `images/` and `annotations/` (Pascal VOC XML) subdirectories.
-```bash
-uv run --with torch --with torchvision --with opencv-python --with matplotlib --with Pillow --with torchmetrics python benchmark_fps.py --data_dir /path/to/dataset
 ```
 
 ## Output
