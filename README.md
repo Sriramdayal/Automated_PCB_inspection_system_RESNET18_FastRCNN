@@ -1,4 +1,4 @@
-# Automated Quality Inspection System
+# Automated Quality Inspection System for PCB
 
 ## Overview
 This system uses a Faster R-CNN (ResNet-18 backbone) model to detect defects on PCB images.
