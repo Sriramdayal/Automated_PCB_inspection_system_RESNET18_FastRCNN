@@ -1,4 +1,4 @@
-# Automated Quality Inspection System for PCB
+# Automated Quality Inspection System for PCB[ Task 1 & 2]
 
 ## Overview
 This system uses a Faster R-CNN (ResNet-18 backbone) model to detect defects on PCB images.
@@ -41,7 +41,7 @@ uv run --with torch --with torchvision --with opencv-python --with matplotlib --
 
 ---
 
-# 3. Custom VLM Design for Industrial Quality Inspection
+# 3. Custom VLM Design for Industrial Quality Inspection [Task 3]
 
 ## Scenario
 **Goal:** Offline PCB inspection where inspectors ask natural language questions about defects.
