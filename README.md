@@ -21,14 +21,6 @@ Run the inspection script using `uv`:
 uv run --with torch --with torchvision --with opencv-python --with matplotlib --with Pillow python inspection_system.py
 ```
 
-## Evaluation
-To evaluate the model's performance (FPS and mAP), use the `benchmark_fps.py` script.
-
-**1. Inference Speed (FPS)**
-```bash
-uv run --with torch --with torchvision --with opencv-python --with matplotlib --with Pillow --with torchmetrics python benchmark_fps.py
-```
-
 ## Output
 - **Console**: Displays a text report of detected defects.
 - **Image**: Saves `inspection_result.jpg` with bounding boxes and annotations.
