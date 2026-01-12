@@ -25,7 +25,7 @@ uv run --with torch --with torchvision --with opencv-python --with matplotlib --
 - **Console**: Displays a text report of detected defects.
 - **Image**: Saves `inspection_result.jpg` with bounding boxes and annotations.
   
-## Note: Because some training containts and less dataset model may overfit but best  suitable model  for given scenario.
+## Note: Because some training constraints and less dataset model may overfit but best  suitable model  for given scenario.
 ---
 
 # 3. Custom VLM Design for Industrial Quality Inspection [Task 3]
